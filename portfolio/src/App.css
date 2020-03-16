@@ -1,0 +1,11 @@
+.navbar{
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  background-color: azure;
+}
+.nav-left{
+
+}
+.nav-right{
+  margin-left: auto;
+}
