@@ -1,40 +1,26 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import React, {useEffect, useState} from 'react';
+import chat from '../assets/chat-icon.svg'
+import github from '../assets/github.svg'
+import linkedIn from '../assets/linkedIn.svg'
+import phone from '../assets/phone-i.svg'
+import mail from '../assets/mail-i.svg'
+export const Navbar = () => {
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-}));
+    return(
+        <div className='nav'>
+        <div className='nav-contact'>
+        <a href='#contact'><img src={chat}/>Contact Me</a>
+        </div>
+        <div className='nav-icons'>
+        <a href='https://github.com/zachtyoung' title='zachtyoung'><img src={github}/></a>
+        <a href='https://www.linkedin.com/in/zach-t-young/' title='zach-t-young'><img src={linkedIn}/></a>
+        <a href='tel:+13164694365' title='316-469-4365'><img src={phone}/></a>
+        <a href='mailto:zach@ztyoung.com' title='zach@ztyoung.com'><img src={mail}/></a>
 
-export default function Navbar() {
-  const classes = useStyles();
+        </div>
 
-  return (
-    <div className={classes.root}>
-      <AppBar position="static" className={classes.navbar}>
-        <Toolbar>
-          <Typography variant="h6" className={classes.title}>
-            Zach Young
-          </Typography>
-          <Button color="inherit">About</Button>
-          <Button color="inherit">Work</Button>
-          <Button color="inherit">Skills</Button>
-          <Button color="inherit">Contact</Button>
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
+
+        </div>
+    )
+
 }

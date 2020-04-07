@@ -3,6 +3,7 @@ import {About} from './About'
 import {Contact} from './Contact'
 import {Skills} from './Skills'
 import {Work} from './Work'
+import {Footer} from './Footer'
 
 export const Landing = () => {
 
@@ -11,9 +12,10 @@ export const Landing = () => {
     return(
         <>
         <About/>
-        <Contact/>
         <Skills/>
         <Work/>
+        <Contact/>
+        <Footer/>
         </>
     )
 
