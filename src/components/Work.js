@@ -37,8 +37,8 @@ export const Work = () => {
                     <div className='underline'></div>
                 </div>
                 <ul>
-                    <li><a title='View Project' href='https://ecbuild.netlify.com/'><img className='work-link' src={live}></img></a></li>
-                    <li><a title='View Code' href='https://github.com/Build-Week-Empowered-Conversations'><img className='work-link' src={github}></img></a></li>
+                    <li><a title='View Project' href='https://www.d8picker.com/'><img className='work-link' src={live}></img></a></li>
+                    <li><a title='View Code' href='https://github.com/Lambda-School-Labs/school-calendar-fe'><img className='work-link' src={github}></img></a></li>
                 </ul>
                 <img className='work-img' src={school}></img>
             </div>
@@ -48,8 +48,8 @@ export const Work = () => {
                     <div className='underline'></div>
                 </div>
                 <ul>
-                    <li><a title='View Project' href='https://diabetesmanager.netlify.com'><img className='work-link' src={live}></img></a></li>
-                    <li><a title='View Code' href='https://github.com/Build-Week-Empowered-Conversations'><img className='work-link' src={github}></img></a></li>
+                    <li><a title='View Project' href='https://pricetracker.netlify.com/'><img className='work-link' src={live}></img></a></li>
+                    <li><a title='View Code' href='https://github.com/zachtyoung/price-tracker-fe'><img className='work-link' src={github}></img></a></li>
                 </ul>
                 <img className='work-img' src={price}></img>
             </div>
