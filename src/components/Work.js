@@ -42,6 +42,7 @@ export const Work = () => {
                 </ul>
                 <img className='work-img' src={school}></img>
             </div>
+            
             <div className="work2 clearfix">
                 <div className='workText'>
                     <h1>Price<br></br>Tracker</h1>
