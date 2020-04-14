@@ -14,8 +14,8 @@ export const Navbar = () => {
         <div className='nav-icons'>
         <a href='https://github.com/zachtyoung' title='zachtyoung'><img src={github}/></a>
         <a href='https://www.linkedin.com/in/zach-t-young/' title='zach-t-young'><img src={linkedIn}/></a>
-        <a href='tel:+13164694365' title='316-469-4365'><img src={phone}/></a>
-        <a href='mailto:zach@ztyoung.com' title='zach@ztyoung.com'><img src={mail}/></a>
+        {/* <a href='tel:+13164694365' title='316-469-4365'><img src={phone}/></a> */}
+        {/* <a href='mailto:zach@ztyoung.com' title='zach@ztyoung.com'><img src={mail}/></a> */}
 
         </div>
 

@@ -8,8 +8,8 @@ export const Footer = () => {
     return(
         <div className="footer">
          <p>&copy; Zach Young 2020</p>
-         <p><img src={email}></img>zach@ztyoung.com</p>
-         <p><img src={phone}></img>316-469-4365</p>
+         <p><a href='mailto:zach@ztyoung.com' title='zach@ztyoung.com'><img src={email}></img>zach@ztyoung.com</a></p>
+         <p><a href='tel:+13164694365' title='316-469-4365'><img src={phone}></img>316-469-4365</a></p>
         </div>
     )
 
