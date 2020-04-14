@@ -6,6 +6,10 @@ html{
   clear: both;
   display: table;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 
 body{
   width: 60%;
