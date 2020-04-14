@@ -170,8 +170,7 @@ padding: 20px 0;
   margin-bottom: 20em;
 }
 .work > .workText{
-  position: absolute;
-  top: 85;
+
 }
 
 .work > .workText > .underline{
@@ -267,8 +266,6 @@ padding: 20px 0;
   margin-bottom: 20em;
 }
 .work2 > .workText{
-  position: absolute;
-  top: 85px;
   right: 0;
   text-align: right;
 }
