@@ -34,7 +34,7 @@ export const Work = () => {
                 </div>
                 <ul>
                     <li><a title='View Project' href='https://diabetesmanager.netlify.com'><img className='work-link' src={live}></img><p>Demo</p></a></li>
-                    <li><a title='View Code' href='https://github.com/Build-Week-Empowered-Conversations'><img className='work-link' src={github}></img><p>Code</p></a></li>
+                    <li><a title='View Code' href='https://github.com/Build-Week-Diabetes-Manager'><img className='work-link' src={github}></img><p>Code</p></a></li>
                 </ul>
                 <div className='work-img'>
                 <img className='work-img-img' src={insuline}></img>
