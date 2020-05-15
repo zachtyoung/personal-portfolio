@@ -195,6 +195,7 @@ padding: 20px 0;
   opacity: 0;
   transition: .5s ease;
   background-color: #027BFF;
+  overflow: scroll;
 }
 
 .text {
@@ -316,4 +317,33 @@ float: left;
   height: 16px;
   margin-right: 10px;
   padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 767px) {
+  .skill-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+  .about-l{
+    max-width: 100%;
+  }
+  .about-R img{
+    width: 300%;
+    display: block;
+    margin-left: auto;
+  }
+  .text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    padding: 1em;
+    top: 0%;
+    left: 0%;
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+  
+  }
 }

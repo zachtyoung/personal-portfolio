@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import empowered from '../assets/empowered.png'
 import insuline from '../assets/insuline2.png'
 import live from '../assets/live.svg'
