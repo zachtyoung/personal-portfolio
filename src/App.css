@@ -72,39 +72,49 @@ p{
   text-decoration: none;
 }
 .about{
-  height: 100vh;
+  height: auto;
   position: relative;
 
 }
-.about-wrap{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
+.about-wrap h1{
+  text-align: center;
 }
 .about-l{
-  max-width: 50%;
+  margin-top:100px;
+  text-align: center;
 }
+.intro:first-child{
+  font-size: 4rem;
+  font-weight: 200;
+  margin-bottom: 25px;
+}
+.intro{
+  font-size: 1.5rem;
+  margin: 10px;
+  font-weight: 300;
+}
+
 .about-description{
-  margin-top: 40px;
-  font-size: 1.25rem;
+  margin-top: 100px;
+  font-size: 1.35rem;
+  font-weight: 300;
+  line-height: 2rem;
 
 }
 
 .about-R img{
-  width: 80%;
+
+  width: 50%;
   display: block;
-  margin-left: auto;
+  margin: 100px auto 0 auto;
 }
 .scroll{
-  position: absolute;
-  bottom: 180px;
-  left: 0;
-  right: 0;
-  margin: auto;
+  display: block;
+  margin: 200px auto;
 }
 .skills{
 text-align: center;
-margin-bottom: 20em;
+margin-bottom: 10em;
 }
 .skill-wrap{
   display: grid;
@@ -173,8 +183,11 @@ padding: 20px 0;
   position: relative;
   margin-bottom: 20em;
 }
-.work > .workText{
-
+.work-wrap h2, .work-wrap p{
+  text-align: center;
+}
+.work-wrap>p{
+margin-bottom: 2em;
 }
 
 .work > .workText > .underline{
@@ -303,6 +316,7 @@ float: left;
 }
 .footer{
   width: max-content;
+  max-width: 100%;
   margin: 0 auto;
 }
 .footer p{
@@ -326,14 +340,50 @@ float: left;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
   }
-  .about-l{
-    max-width: 100%;
+  body{
+    width: 90%;
   }
   .about-R img{
-    width: 300%;
-    display: block;
-    margin-left: auto;
+    width: 75%;
+    margin-top: 50px;
   }
+  .footer{
+    text-align: center;
+  }
+  .work{
+    margin-bottom: 10em;
+  }
+  .workText{
+    text-align: right;
+  }
+  .work > .workText > .underline{
+    margin-left: auto;
+    margin-bottom: 1em;
+  }
+  .work2>.workText{
+    text-align: left;
+  }
+  .work2 > .workText .underline{
+margin-bottom: 1em;
+    float: none;
+  }
+  .work ul, .work2 ul{
+    position: initial;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  .work li, .work2 li{
+    display: inline-block;
+    padding-right: 1em;
+  }
+  .work > .work-img{
+    width: 100%;
+  }
+  .work2 > .work-img{
+    width: 100%;
+  }
+
   .text {
     color: white;
     font-size: 16px;

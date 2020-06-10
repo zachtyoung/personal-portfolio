@@ -9,9 +9,11 @@ export const Work = () => {
 
     return(
         <div className="work-wrap">
+            <h2>Work</h2>
+        <p>Selected projects to best demonstrate my work</p>
             <div className="work clearfix">
                 <div className='workText'>
-                    <h1>Empowered<br></br>Conversations</h1>
+                    <h1>Empowered Conversations</h1>
                     <div className='underline'></div>
                 </div>
                 <ul>
