@@ -397,3 +397,11 @@ margin-bottom: 1em;
   
   }
 }
+.about-description-subtitle{
+  color: #027BFF;
+  font-weight: 600;
+  font-style: italic;
+}
+.about-description-subtitle:hover{
+transform: scale(1.1);
+}
